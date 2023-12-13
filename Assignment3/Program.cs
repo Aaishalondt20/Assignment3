@@ -7,6 +7,7 @@
             Driver driver = new Driver();
             driver.Name = "Aaisha";
             driver.HasDriversLicense = false;
+            driver.LicenseNumber = "CA200803";
 
 
             Car BMW = new Car(4, 5, true, true, "AL98AD4509", driver,"CA200803");
